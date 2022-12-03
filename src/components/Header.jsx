@@ -5,7 +5,7 @@ import { Content } from "../Content";
 export default function Header() {
 	const [show, setShow] = useState("hidden");
 	return (
-		<div className="container mx-auto flex justify-center">
+		<div className="container flex justify-center">
 			<div className="w-4/5 flex items-center justify-between h-[88px] mt-40px">
 				<div className="">
 					<img src={Content.header.logo} alt="Header Logo" />
@@ -22,7 +22,7 @@ export default function Header() {
 						}}
 					/>
 					<div
-						className={`${show} flex-col absolute top-20 bottom-0 left-0 right-0 text-white bg-black lg:relative lg:top-0 lg:text-black lg:bg-transparent lg:block`}
+						className={`${show} flex-col absolute top-20 bottom-0 left-0 right-0 z-50 text-white bg-black lg:relative lg:top-0 lg:text-black lg:bg-transparent lg:block`}
 					>
 						{Content.header.menu.map((item) => (
 							<a
