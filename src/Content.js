@@ -44,5 +44,34 @@ export const Content = {
             buttonText: "Read Articles",
             icon: ImLocation,
         }
-    ]
+    ],
+    articles: {
+        title: "Latest Articles",
+        articleBox: [
+            {
+                title: "Many desktop publishing packages and web page ",
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus.",
+                kategori: "Analytics",
+                img: HeroTeam,
+            },
+            {
+                title: "Many desktop publishing packages and web page ",
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus.",
+                kategori: "Analytics",
+                img: HeroTeam,
+            },
+            {
+                title: "Many desktop publishing packages and web page ",
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus.",
+                kategori: "Analytics",
+                img: HeroTeam,
+            },
+            {
+                title: "Many desktop publishing packages and web page ",
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus.",
+                kategori: "Analytics",
+                img: HeroTeam,
+            },
+        ]
+    }
 }

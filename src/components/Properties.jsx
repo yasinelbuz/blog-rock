@@ -4,8 +4,9 @@ import { Content } from "../Content";
 export default function Properties() {
 	return (
 		<div className="container flex flex-col justify-around md:items-start md:flex-row">
-			{Content.properties.map((item) => (
+			{Content.properties.map((item, index) => (
 				<PropertiesBox
+					key={index}
 					icon={createElement(item.icon)}
 					title={item.title}
 					text={item.text}

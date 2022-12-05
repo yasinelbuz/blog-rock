@@ -24,9 +24,10 @@ export default function Header() {
 					<div
 						className={`${show} flex-col absolute top-20 bottom-0 left-0 right-0 z-50 text-white bg-black lg:relative lg:top-0 lg:text-black lg:bg-transparent lg:block`}
 					>
-						{Content.header.menu.map((item) => (
+						{Content.header.menu.map((item, index) => (
 							<a
 								href="#"
+								key={index}
 								className="p-[20px] inline-block font-semibold text-[17px]"
 							>
 								{item}
