@@ -6,10 +6,6 @@ import Hamburger from './assets/images/hamburger.svg';
 //hero
 import HeroTeam from './assets/images/Hero_Team.jpg';
 
-//icons
-import { BsFullscreen } from 'react-icons/Bs';
-import { BsSearch } from 'react-icons/Bs';
-
 //Footer Social Icons
 import facebookIcon from './assets/images/facebook.svg';
 import twitterIcon from './assets/images/twitter.svg';
@@ -34,13 +30,11 @@ export const Content = {
             title: "Fully Responsive",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus. ",
             buttonText: "Read Articles",
-            icon: BsFullscreen,
         },
         {
             title: "SEO Friendly",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus. ",
             buttonText: "Read Articles",
-            icon: BsSearch,
         },
         {
             title: "Easily Customizable",

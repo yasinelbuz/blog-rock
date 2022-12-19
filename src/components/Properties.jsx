@@ -1,4 +1,3 @@
-import React, { createElement } from "react";
 import { Content } from "../Content";
 
 export default function Properties() {
@@ -7,7 +6,6 @@ export default function Properties() {
 			{Content.properties.map((item, index) => (
 				<PropertiesBox
 					key={index}
-					icon={createElement(item.icon)}
 					title={item.title}
 					text={item.text}
 					buttonText={item.buttonText}

@@ -25,16 +25,18 @@ export default function Footer() {
 						</div>
 					</div>
 					<div className="w-[2/3] flex gap-16">
-						{Content.footer.categories.map((item) => (
-							<div>
+						{Content.footer.categories.map((item, index) => (
+							<div key={index}>
 								{
 									<>
 										<h2 className="font-bold text-gray-300 text-2xl">
 											{item.title}
 										</h2>
 										<div className="flex flex-col">
-											{item.categori.map((list) => (
-												<a href="#">{list}</a>
+											{item.categori.map((list, i) => (
+												<a href="#" key={i}>
+													{list}
+												</a>
 											))}
 										</div>
 									</>
