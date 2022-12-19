@@ -1,21 +1,14 @@
 //Header
 import Logo from './assets/images/BlogRock.svg';
-import Search from './assets/images/search.svg';
 import Hamburger from './assets/images/hamburger.svg';
 
 //hero
 import HeroTeam from './assets/images/Hero_Team.jpg';
 
-//Footer Social Icons
-import facebookIcon from './assets/images/facebook.svg';
-import twitterIcon from './assets/images/twitter.svg';
-import instagramIcon from './assets/images/instagram.svg';
-
 export const Content = {
     header: {
         logo: Logo,
         menu: ["Home", "About Us", "Features", "Cart", "Contact Us"],
-        search: Search,
         hamburger: Hamburger,
     },
     hero: {
@@ -99,11 +92,5 @@ export const Content = {
                 categori: ["Privacy Policy", "Term of use"],
             },
         ],
-        icons: {
-            facebookIcon: facebookIcon,
-            instagramIcon: instagramIcon,
-            twitterIcon: twitterIcon,
-        }
-
     }
 }

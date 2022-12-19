@@ -9,20 +9,6 @@ export default function Footer() {
 					<div className="mb-12 flex flex-col items-start gap-6 flex-shrink-1 w-[400px]">
 						<img src={Content.footer.logo} alt="" />
 						<p>{Content.footer.text}</p>
-						<div className="flex gap-2">
-							<img
-								src={Content.footer.icons.facebookIcon}
-								alt=""
-							/>
-							<img
-								src={Content.footer.icons.instagramIcon}
-								alt=""
-							/>
-							<img
-								src={Content.footer.icons.twitterIcon}
-								alt=""
-							/>
-						</div>
 					</div>
 					<div className="w-[2/3] flex gap-16">
 						{Content.footer.categories.map((item, index) => (

@@ -34,11 +34,6 @@ export default function Header() {
 							</a>
 						))}
 					</div>
-					<img
-						src={Content.header.search}
-						alt="Search"
-						className="p-[20px] cursor-pointer"
-					/>
 				</div>
 			</div>
 		</div>
