@@ -1,6 +1,5 @@
-import React from "react";
-import { useState } from "react";
-import { Content } from "../Content";
+import React, { useState } from "react";
+import { Content } from "@/Content";
 
 export default function Header() {
 	const [show, setShow] = useState("hidden");

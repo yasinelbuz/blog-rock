@@ -1,9 +1,9 @@
 //Header
-import Logo from './assets/images/BlogRock.svg';
-import Hamburger from './assets/images/hamburger.svg';
+import Logo from '@/assets/images/BlogRock.svg';
+import Hamburger from '@/assets/images/hamburger.svg';
 
 //hero
-import HeroTeam from './assets/images/Hero_Team.jpg';
+import HeroTeam from '@/assets/images/Hero_Team.jpg';
 
 export const Content = {
     header: {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Content } from "./../Content";
+import { Content } from "@/Content";
 
 export default function AboutUs() {
 	return (
@@ -11,7 +11,7 @@ export default function AboutUs() {
 						className="w-full md:w-full md:h-full object-cover"
 					/>
 				</div>
-				<div className="md:left-[350px] md:top-[50%] md:-translate-y-1/2 md:right-0 bg-gray-100 h-[300px] relative md:absolute p-8">
+				<div className="md:left-[350px] md:top-[50%] -translate-y-1/2 md:right-0 bg-gray-100 h-[300px] relative md:absolute p-8">
 					<div className="h-full flex flex-col justify-around items-start">
 						<h2>{Content.aboutUs.kategori}</h2>
 						<h1 className="font-bold text-3xl">
