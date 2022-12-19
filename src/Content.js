@@ -94,11 +94,18 @@ export const Content = {
         logo: Logo,
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Maecenas quis eros sed risus sollicitudin fringilla dictum in metus.Sed ultrices mauris a facilisis varius.",
         downText: "Blog Rock © 2020 All Right Reserved",
-        categories: {
-            aboutme: ["My Team", "History", "My Products", "Blogging"],
-            resources: ["Webinars", "Courses", "Books", "Marketing"],
-            contact: ["Privacy Policy", "Term of use"],
-        },
+        categories: [
+            {
+                title: "About me",
+                categori: ["My Team", "History", "My Products", "Blogging"],
+            }, {
+                title: "Resources",
+                categori: ["Webinars", "Courses", "Books", "Marketing"],
+            }, {
+                title: "Contact",
+                categori: ["Privacy Policy", "Term of use"],
+            },
+        ],
         icons: {
             facebookIcon: facebookIcon,
             instagramIcon: instagramIcon,
