@@ -11,6 +11,11 @@ import { BsFullscreen } from 'react-icons/Bs';
 import { BsSearch } from 'react-icons/Bs';
 import { ImLocation } from 'react-icons/Im';
 
+//Footer Social Icons
+import facebookIcon from './assets/images/facebook.svg';
+import twitterIcon from './assets/images/twitter.svg';
+import instagramIcon from './assets/images/instagram.svg';
+
 export const Content = {
     header: {
         logo: Logo,
@@ -73,5 +78,32 @@ export const Content = {
                 img: HeroTeam,
             },
         ]
+    },
+    aboutUs: {
+        title: "Heading Title",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula libero nec ipsum bibendum rhoncus. In fermentum non orci nec pellentesque. Donec sollicitudin feugiat ante, vel feugiat dolor porta eu. Pellentesque elementum ligula metus, id sagittis ligula sagittis nec.",
+        kategori: "About Us",
+        img: HeroTeam,
+    },
+    newsletter: {
+        title: "Newsletter",
+        text: "Subscribe my Newsletter for new blog posts, tips & new photos. Let\'s stay updated!",
+        kategori: "About Us",
+    },
+    footer: {
+        logo: Logo,
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Maecenas quis eros sed risus sollicitudin fringilla dictum in metus.Sed ultrices mauris a facilisis varius.",
+        downText: "Blog Rock © 2020 All Right Reserved",
+        categories: {
+            aboutme: ["My Team", "History", "My Products", "Blogging"],
+            resources: ["Webinars", "Courses", "Books", "Marketing"],
+            contact: ["Privacy Policy", "Term of use"],
+        },
+        icons: {
+            facebookIcon: facebookIcon,
+            instagramIcon: instagramIcon,
+            twitterIcon: twitterIcon,
+        }
+
     }
 }
