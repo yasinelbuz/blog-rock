@@ -9,7 +9,6 @@ import HeroTeam from './assets/images/Hero_Team.jpg';
 //icons
 import { BsFullscreen } from 'react-icons/Bs';
 import { BsSearch } from 'react-icons/Bs';
-import { ImLocation } from 'react-icons/Im';
 
 //Footer Social Icons
 import facebookIcon from './assets/images/facebook.svg';
@@ -47,7 +46,7 @@ export const Content = {
             title: "Easily Customizable",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis eros sed risus sollicitudin fringilla dictum in metus.",
             buttonText: "Read Articles",
-            icon: ImLocation,
+            icon: "ImLocation",
         }
     ],
     articles: {
